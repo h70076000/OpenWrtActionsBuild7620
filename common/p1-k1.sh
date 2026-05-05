@@ -14,11 +14,11 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/h70076000/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # Clone package
-#git clone https://github.com/brvphoenix/wrtbwmon.git package/wrtbwmon
+# git clone https://github.com/h70076000/openwrt-packages
 #git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git package/luci-app-wrtbwmon 
 #git clone -b release-1.6.3 https://github.com/brvphoenix/luci-app-wrtbwmon.git package/luci-app-wrtbwmon
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
