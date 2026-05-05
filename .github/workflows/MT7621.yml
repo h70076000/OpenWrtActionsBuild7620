@@ -185,6 +185,7 @@ jobs:
         tag_name: ${{ steps.tag.outputs.release_tag }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
+        UPLOAD_RELEASE: true
 
     - name: Telegram notification
       if: env.TELEGRAM_TOKEN && ! contains(github.event.action, 'notg')
