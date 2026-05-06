@@ -23,8 +23,8 @@ on:
 #    - cron: '30 18 * * 0'
 
 env:
-  REPO_URL: https://github.com/siwind/openwrt.git
-  REPO_BRANCH: openwrt-19.07
+  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .oy001.config
   DIY_P1_SH: common/p1-k1.sh
